@@ -1,0 +1,4 @@
+import qrcode
+
+img = qrcode.make("link")
+img.save("file_name", "type (PNG, etc.)")
